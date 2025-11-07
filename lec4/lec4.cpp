@@ -66,15 +66,27 @@ int main()
     // }
 
     // Lecture 04 Q#06
-    int n = 4;
-    char ch = 65;
+    //     int n = 4;
+    //     char ch = 65;
+    //     for (int i = 0; i < n; i++)
+    //     {
+    //         for (int j = 0; j < i + 1; j++)
+    //         {
+    //             cout << ch;
+    //         }
+    //         ch++;
+    //         cout << endl;
+    //     }
+    // }
+
+    // Lecture 04 Q#07
+    int n = 5;
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < i + 1; j++)
-        {
-            cout << ch;
+        for(int j=1; j<=i+1; j++){
+            cout << j;
         }
-        ch++;
         cout << endl;
     }
+
 }
